@@ -105,7 +105,7 @@ def run(config_path):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 2:
+    if len(sys.argv) < 2:
         print("command: command config_file")
         exit(-1)
 
