@@ -49,6 +49,8 @@ class IPChecker(object):
             return True
 
     def report_failed(self, run_time, ignore_hours, sckey, failed_hosts):
+        if not failed_hosts:
+            return
 
         title = "Host报警: {}".format(run_time.strftime("%Y-%m-%d %H:%M"))
         content = ""

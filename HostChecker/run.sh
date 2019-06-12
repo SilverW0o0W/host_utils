@@ -1,0 +1,1 @@
+python check_ip_port.py host.json >> output.log &
