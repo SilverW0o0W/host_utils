@@ -69,7 +69,7 @@ class IPChecker(object):
 
     @staticmethod
     def send_report(title, content, sckey):
-        url = "https://sc.ftqq.com/{}.send".format(sckey)
+        url = "https://sctapi.ftqq.com/{}.send".format(sckey)
         headers = {
             "Content-Type": "application/x-www-form-urlencoded",
         }
